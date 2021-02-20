@@ -51,19 +51,24 @@ hr {
 
 /* Navbar */
 
-button.listen-button {
-    color: #fff;
+a.navigation {
+    color: #fff !important;
     font-family: 'Assistant', sans-serif !important;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
+}
+
+a.navigation:hover {
+    color: #1687a7 !important;
 }
 
 nav.navbar {
     background-color: #efa26a!important;
+    padding: 0 1.5rem;
 }
 
 .blue {
-    color: #1687a7;
+    color: #1687a7 !important;
 }
 
 .headphones:hover {
