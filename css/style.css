@@ -1,0 +1,167 @@
+body {
+    background-color: #fff;
+    color: #Fd2191; 
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 3% 15% 3%;
+    font-weight: 700;
+}
+
+img {
+    border: solid 5px #f32b92;
+    border-radius: 12%;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #f32b92;
+    border-width: 10px;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 2% 7%;
+}
+
+.color-section {
+    color:  #fff;
+    background-color: #efa26a;
+    padding: 1% 0;
+}
+
+.white-section {
+    background-color: #fff;  
+}
+
+/* Navbar */
+
+button.listen-button {
+    color: #fff;
+    font-family: 'Assistant', sans-serif !important;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav.navbar {
+    background-color: #efa26a!important;
+}
+
+.blue {
+    color: #1687a7;
+}
+
+.headphones:hover {
+    color: #f32b92;
+}
+
+/* Title Section */
+
+.title-section {
+    margin-top: 8%
+}
+
+.arrow {
+    color: #f32b92;
+}
+.carousel-img {
+    width: 65%;
+}
+
+.listen-button {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* About Section */
+
+.about-img {
+    width: 60%;
+    margin-top: 2%;
+}
+
+/* Episode Section */
+
+/* Review Section */
+
+.review-container {
+    padding: 3%;
+}
+
+.review {
+    width: 75%;
+    border-radius: 8%;
+}
+
+/* Listen Section */
+.listen-text {
+    padding: 1% 15%;
+}
+
+.listen-button {
+    margin-bottom: 10px;
+}
+
+.pink {
+    color: #f32b92;
+}
+
+
+/* Footer Section */
+
+.contact-icons {
+    color: #f32b92;
+    padding: 0 2%;
+}
+
+.contact-icons:hover {
+    color: #1687a7;
+}
+.copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-top: 8%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+
+    h2 {
+        font-size: 2.5rem;
+    }
+    .carousel-img {
+        width: 75%;
+    } 
+
+    .about-img {
+        width: 65%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .listen-text {
+        padding: 4.125px 50px;
+    }
+
+}
+
