@@ -68,7 +68,7 @@ nav.navbar {
 }
 
 .blue {
-    color: #1687a7 !important;
+    color: #1687a7;
 }
 
 .headphones:hover {
@@ -76,10 +76,6 @@ nav.navbar {
 }
 
 /* Title Section */
-
-.title-section {
-    margin-top: 8%
-}
 
 .arrow {
     color: #f32b92;
@@ -97,9 +93,10 @@ nav.navbar {
 /* About Section */
 
 .about-img {
-    width: 60%;
+    width: 58%;
     margin-top: 2%;
 }
+
 
 /* Episode Section */
 
@@ -110,7 +107,7 @@ nav.navbar {
 }
 
 .review {
-    width: 75%;
+    width: 65%;
     border-radius: 8%;
 }
 
