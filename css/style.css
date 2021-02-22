@@ -90,6 +90,10 @@ nav.navbar {
     font-weight: bold;
 }
 
+div.title-button {
+    padding-top: 2%;
+}
+
 /* About Section */
 
 .about-img {
@@ -129,17 +133,17 @@ nav.navbar {
 
 .contact-icons {
     color: #f32b92;
-    padding: 0 2%;
+    padding: 0 5%;
 }
 
 .contact-icons:hover {
     color: #1687a7;
 }
 .copyright {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
     margin-bottom: 0;
-    padding-top: 8%;
+    padding: 6% 15% 0%;
 }
 
 /* Media Queries */
@@ -147,7 +151,7 @@ nav.navbar {
 @media (max-width: 1024px) {
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .carousel-img {
         width: 75%;
@@ -165,5 +169,11 @@ nav.navbar {
         padding: 4.125px 50px;
     }
 
+}
+
+@media (min-width: 1300px) {
+    .listen-text {
+        padding: 1% 20%;
+    }
 }
 
