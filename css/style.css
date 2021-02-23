@@ -1,3 +1,4 @@
+/* Element Selectors */
 body {
     background-color: #fff;
     color: #Fd2191; 
@@ -17,8 +18,9 @@ h3 {
 
 p {
     font-size: 1.5rem;
-    padding: 3% 15% 3%;
-    font-weight: 700;
+    padding: 8% 8% 5%;
+    font-weight: 400;
+    line-height: 2;
 }
 
 img {
@@ -34,9 +36,8 @@ hr {
 
 
 /* Containers */
-
 .container-fluid {
-    padding: 2% 7%;
+    padding: 2%;
 }
 
 .color-section {
@@ -49,8 +50,21 @@ hr {
     background-color: #fff;  
 }
 
-/* Navbar */
+/* Colors and Weights */
+.blue {
+    color: #1687a7;
+}
 
+.pink {
+    color: #f32b92;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+/* Navbar */
 a.navigation {
     color: #fff !important;
     font-family: 'Assistant', sans-serif !important;
@@ -67,21 +81,17 @@ nav.navbar {
     padding: 0 1.5rem;
 }
 
-.blue {
-    color: #1687a7;
-}
-
 .headphones:hover {
     color: #f32b92;
 }
 
-/* Title Section */
 
+/* Title Section */
 .arrow {
     color: #f32b92;
 }
 .carousel-img {
-    width: 65%;
+    width: 70%;
 }
 
 .listen-button {
@@ -94,18 +104,18 @@ div.title-button {
     padding-top: 2%;
 }
 
+
 /* About Section */
 
 .about-img {
     width: 58%;
-    margin-top: 2%;
 }
 
 
 /* Episode Section */
 
-/* Review Section */
 
+/* Review Section */
 .review-container {
     padding: 3%;
 }
@@ -124,13 +134,8 @@ div.title-button {
     margin-bottom: 10px;
 }
 
-.pink {
-    color: #f32b92;
-}
-
 
 /* Footer Section */
-
 .contact-icons {
     color: #f32b92;
     padding: 0 5%;
@@ -148,21 +153,28 @@ div.title-button {
 
 /* Media Queries */
 
+@media (max-width: 415px) {
+    p {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 1024px) {
 
     h2 {
         font-size: 2rem;
     }
-    .carousel-img {
-        width: 75%;
-    } 
+    
+    .container-fluid {
+        padding: 4%;
+    }
 
     .about-img {
         width: 65%;
     }
-
-    p {
-        font-size: 1rem;
+    
+    .about {
+        padding: 5% 5% 0;
     }
 
     .listen-text {
@@ -171,7 +183,31 @@ div.title-button {
 
 }
 
+@media (min-width: 1075px) {
+    
+    .carousel-img {
+        width: 65%;
+    }
+}
+
 @media (min-width: 1300px) {
+    
+    p {
+        padding: 3% 12%;
+    }
+
+    .carousel-img {
+        width: 55%
+    }
+
+    .about-img {
+        width: 53%
+    }
+
+    .review {
+        width: 55%
+    }
+    
     .listen-text {
         padding: 1% 20%;
     }
