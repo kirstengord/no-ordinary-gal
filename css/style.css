@@ -1,7 +1,6 @@
 /* Element Selectors */
 body {
     background-color: #fff;
-    color: #Fd2191; 
     font-family: 'Assistant', sans-serif;
     text-align: center;
 }
@@ -12,6 +11,7 @@ h2 {
 }
 
 h3 {
+    color: #Fd2191; 
     font-weight: bold;
     padding: 20px 0;
 }
@@ -49,6 +49,7 @@ hr {
 .white-section {
     background-color: #fff;  
 }
+
 
 /* Colors and Weights */
 .blue {
@@ -106,9 +107,12 @@ div.title-button {
 
 
 /* About Section */
-
 .about-img {
     width: 58%;
+}
+
+.about {
+    padding: 3% 5% 0;
 }
 
 
@@ -124,6 +128,7 @@ div.title-button {
     width: 65%;
     border-radius: 8%;
 }
+
 
 /* Listen Section */
 .listen-text {
@@ -151,6 +156,8 @@ div.title-button {
     padding: 6% 15% 0%;
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 415px) {
@@ -158,6 +165,7 @@ div.title-button {
         font-size: 1.1rem;
     }
 }
+
 
 @media (max-width: 1024px) {
 
@@ -174,7 +182,7 @@ div.title-button {
     }
     
     .about {
-        padding: 5% 5% 0;
+        padding: 4% 5% 0;
     }
 
     .listen-text {
@@ -183,12 +191,14 @@ div.title-button {
 
 }
 
+
 @media (min-width: 1075px) {
     
     .carousel-img {
         width: 65%;
     }
 }
+
 
 @media (min-width: 1300px) {
     
