@@ -3,6 +3,7 @@ body {
     background-color: #fff;
     font-family: 'Assistant', sans-serif;
     text-align: center;
+    padding-top: 40px;
 }
 
 h2 {
@@ -32,7 +33,7 @@ img {
 hr {
     border-style: dotted none none none;
     border-color: #f32b92;
-    border-width: 10px;
+    border-width: 8px;
 }
 
 button {
